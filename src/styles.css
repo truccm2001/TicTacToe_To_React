@@ -1,0 +1,47 @@
+#App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: lightgrey;
+}
+
+.square {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+svg {
+  stroke-width: 15px;
+  stroke: #ff5676;
+  fill: none;
+}
+
+.cross {
+  stroke: #5cd4f9;
+}
+
+.resbutton {
+  display: block;
+  margin: 50px;
+  margin-left: 150px;
+}
